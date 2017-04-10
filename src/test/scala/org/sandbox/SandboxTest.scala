@@ -13,4 +13,8 @@ class SandboxTest extends JUnitSuite {
     assertEquals(9, samdbox square 3)
     assertEquals(36, samdbox multiple(12, 3))
   }
+
+  @Test def conditionTest() {
+    assertTrue(samdbox condition 15)
+  }
 }
